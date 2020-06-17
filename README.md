@@ -4,6 +4,19 @@
 Sample bare bones node app built from the “hello world” in the [express documentation](https://expressjs.com/en/starter/hello-world.html).
 
 
+### Structure
+
+.
+├── app.js
+├── routes.js
+└── views
+    ├── index.hbs
+└── middleware
+    ├── index.hbs
+└── public
+    └── assets
+        ├── css
+        ├── js    
 
 ### Get Started
 
