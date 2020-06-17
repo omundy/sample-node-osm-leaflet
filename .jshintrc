@@ -1,6 +1,6 @@
 {
     "strict": "global",
-    "unused": true,
+    "unused": false,
     "indent": 1,
     "esversion": 8,
     "node": true
