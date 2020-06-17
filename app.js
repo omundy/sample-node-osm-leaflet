@@ -24,11 +24,12 @@ app.get('/api', async (req, res) => {
 app.get('/api/trails/:city?/:state?', async (req, res) => {
 	console.log(req.params);
 
+	// set vars
 	let city = req.params.city,
 		state = req.params.state,
-		lat, lon;
+		lat, lon,
+		url = "https://nominatim.openstreetmap.org/search?city=" + city + "&state=" + state + "&format=json";
 
-	let url = "https://nominatim.openstreetmap.org/search?city=" + city + "&state=" + state + "&format=json";
 	console.log(url);
 
 	// https://github.com/node-fetch/node-fetch
