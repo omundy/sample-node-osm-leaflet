@@ -1,0 +1,7 @@
+{
+    "strict": "global",
+    "unused": true,
+    "indent": 1,
+    "esversion": 8,
+    "node": true
+}
