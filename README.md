@@ -1,4 +1,4 @@
-# sample-node-map-data
+# Node/Express + OSM + Leaflet sample project
 
 
 Sample bare bones node app built from the “hello world” in the [express documentation](https://expressjs.com/en/starter/hello-world.html).
