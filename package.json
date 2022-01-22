@@ -13,7 +13,7 @@
     "express-handlebars": "^4.0.4",
     "fetch": "^1.1.0",
     "http": "0.0.1-security",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^3.1.1",
     "nodemon": "^2.0.4"
   }
 }
