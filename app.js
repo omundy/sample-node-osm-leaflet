@@ -1,4 +1,4 @@
-"use strict";
+
 
 const express = require('express');
 const app = express();
@@ -8,12 +8,19 @@ const port = 3000;
 
 // make handlebars the view engine
 const hbs = require('express-handlebars');
-app.engine('hbs', hbs({
-    layoutsDir: path.join(__dirname, 'views/layouts'),
-    defaultLayout: 'index',
-    extname: '.hbs'
-}));
+app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
+app.engine('hbs', hbs.engine({
+	extname: 'hbs',
+	defaultLayout: 'index',
+	layoutsDir: __dirname + '/views/'
+}));
+
+// app.engine('hbs', hbs({
+// 	layoutsDir: path.join(__dirname, 'views/layouts'),
+// 	defaultLayout: 'index',
+// 	extname: '.hbs'
+// }));
 
 // static public directory
 app.use(express.static(path.resolve('./public')));

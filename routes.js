@@ -1,8 +1,10 @@
-"use strict";
+
 
 const express = require('express');
 const router = express.Router();
 const fetch = require('node-fetch');
+
+
 // middleware to show requests
 const middleware = require("./middleware/debug-request-times");
 router.use(middleware.showRequests);
@@ -12,7 +14,7 @@ router.use(middleware.showRequests);
 
 // website root
 router.get('/', function (req, res) {
-    // render page and pass data 
+    // render page and pass data
 	res.render("index", {
         page: {
             title: 'Hello World!',
