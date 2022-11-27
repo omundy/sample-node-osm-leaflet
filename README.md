@@ -1,4 +1,4 @@
-# Node/Express + OSM + Leaflet sample project
+# Node/Express Leaflet sample project (with OSM)
 
 
 Sample bare bones node app built from the "hello world" in the [express documentation](https://expressjs.com/en/starter/hello-world.html).
