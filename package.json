@@ -1,19 +1,21 @@
 {
-  "name": "map-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.1",
-    "express-handlebars": "^6.0.6",
-    "fetch": "^1.1.0",
-    "http": "0.0.1-security",
-    "node-fetch": "^2.6.5",
-    "nodemon": "^2.0.18"
-  }
+	"name": "sample-node-osm-leaflet",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node app.js",
+		"start-dev": "nodemon --ext '*' --trace-warnings app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.18.1",
+		"express-handlebars": "^6.0.6",
+		"fetch": "^1.1.0",
+		"http": "0.0.1-security",
+		"node-fetch": "^2.6.5",
+		"nodemon": "^2.0.18"
+	}
 }

@@ -6,7 +6,7 @@ const fetch = require('node-fetch');
 
 
 // middleware to show requests
-const middleware = require("./middleware/debug-request-times");
+const middleware = require("./app/middleware/debug-request-times");
 router.use(middleware.showRequests);
 
 
