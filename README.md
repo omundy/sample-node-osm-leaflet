@@ -13,6 +13,3 @@ Sample bare bones node app built from the "hello world" in the [express document
 
 
 
-## To do
-
-1. Add map

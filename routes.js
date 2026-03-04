@@ -17,7 +17,7 @@ router.get('/', function (req, res) {
     // render page and pass data
 	res.render("index", {
         page: {
-            title: 'Hello World!',
+            title: 'Node OSM Leaflet demo',
             image: 'https://picsum.photos/500/500',
             body: []
         }
@@ -32,8 +32,8 @@ router.get('/api', async (req, res) => {
 });
 
 
-// trails/city/state
-router.get('/api/trails/:city?/:state?', async (req, res) => {
+// location/city/state
+router.get('/api/location/:city?/:state?', async (req, res) => {
 	console.log(req.params);
 
 	// set vars

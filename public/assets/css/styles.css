@@ -1,5 +1,8 @@
-
-
-body, html {
+body,
+html {
     color: #333;
+}
+
+#map {
+    height: 180px;
 }
